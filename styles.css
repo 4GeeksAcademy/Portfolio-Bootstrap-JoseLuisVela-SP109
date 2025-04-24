@@ -1,0 +1,32 @@
+body{
+    font-size: small;
+}
+h5, h6 {
+    color: darkblue;
+    font-weight: bold;
+}
+h4{
+    color: cornflowerblue;
+    font-weight: 800;
+}
+hr{
+    color: cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+    width: 30px;
+    opacity: 100;
+}
+ul li{
+    list-style-type: none;
+}
+li::before{
+    content: ">";
+    margin-left: -1em;
+    color: cornflowerblue;
+}
+.fondoazul{
+    background-color: rgb(201, 238, 251);
+}
+.i-big{
+    font-size: x-large;
+    color: cornflowerblue;
+}
